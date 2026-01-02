@@ -1565,9 +1565,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /obj/effect/turf_decal/siding/dark{
-	dir = 5
-	},
-/obj/effect/turf_decal/siding/dark{
 	dir = 9
 	},
 /obj/structure/marker_beacon/burgundy,
@@ -1575,10 +1572,7 @@
 	c_tag = "DS-2 Armory";
 	network = list("ds2")
 	},
-/obj/machinery/suit_storage_unit/syndicate/chameleon{
-	name = "suit storage unit";
-	req_access = list("syndicate_leader")
-	},
+/obj/machinery/suit_storage_unit/syndicate/chameleon,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/nova/des_two/security/armory)
 "eC" = (
@@ -3603,10 +3597,7 @@
 /obj/effect/turf_decal/siding/dark{
 	dir = 1
 	},
-/obj/machinery/suit_storage_unit/syndicate/chameleon{
-	name = "suit storage unit";
-	req_access = list("syndicate_leader")
-	},
+/obj/machinery/suit_storage_unit/syndicate/chameleon,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/nova/des_two/security/armory)
 "lE" = (
@@ -5128,11 +5119,8 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/has_grav/nova/des_two/research)
 "qR" = (
-/obj/machinery/suit_storage_unit/syndicate/chameleon{
-	name = "suit storage unit";
-	req_access = list("syndicate_leader")
-	},
 /obj/item/crowbar/red,
+/obj/machinery/suit_storage_unit/syndicate/chameleon,
 /turf/open/floor/carpet/royalblack,
 /area/ruin/space/has_grav/nova/des_two/security)
 "qV" = (
@@ -5770,10 +5758,6 @@
 /obj/item/flashlight/flare/candle/infinite{
 	pixel_x = 1;
 	pixel_y = -4
-	},
-/obj/item/trash/nachos{
-	pixel_x = 1;
-	pixel_y = -34
 	},
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/nova/des_two/service/lounge)
@@ -8531,12 +8515,8 @@
 /obj/structure/window/reinforced/survival_pod{
 	dir = 10
 	},
-/obj/machinery/suit_storage_unit{
-	mask_type = /obj/item/clothing/mask/gas/syndicate;
-	mod_type = /obj/item/mod/control/pre_equipped/traitor_elite;
-	storage_type = /obj/item/tank/jetpack/oxygen/harness
-	},
 /obj/effect/turf_decal/tile/dark/full,
+/obj/machinery/suit_storage_unit/syndicate/elite_deeps,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/nova/des_two/bridge/admiral)
 "Bx" = (
@@ -15991,8 +15971,8 @@
 /obj/structure/window/reinforced/survival_pod/spawner/directional/east,
 /obj/item/binoculars,
 /obj/effect/turf_decal/tile/dark/full,
-/obj/item/gun/ballistic/revolver/golden,
 /obj/item/knife/combat,
+/obj/item/gun/ballistic/revolver/golden,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/nova/des_two/bridge/cl)
 "YU" = (
