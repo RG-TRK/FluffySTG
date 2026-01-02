@@ -1565,6 +1565,9 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /obj/effect/turf_decal/siding/dark{
+	dir = 5
+	},
+/obj/effect/turf_decal/siding/dark{
 	dir = 9
 	},
 /obj/structure/marker_beacon/burgundy,
@@ -1572,7 +1575,10 @@
 	c_tag = "DS-2 Armory";
 	network = list("ds2")
 	},
-/obj/machinery/suit_storage_unit/syndicate/chameleon,
+/obj/machinery/suit_storage_unit/syndicate/chameleon{
+	name = "suit storage unit";
+	req_access = list("syndicate_leader")
+	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/nova/des_two/security/armory)
 "eC" = (
@@ -3597,7 +3603,10 @@
 /obj/effect/turf_decal/siding/dark{
 	dir = 1
 	},
-/obj/machinery/suit_storage_unit/syndicate/chameleon,
+/obj/machinery/suit_storage_unit/syndicate/chameleon{
+	name = "suit storage unit";
+	req_access = list("syndicate_leader")
+	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/nova/des_two/security/armory)
 "lE" = (
@@ -5119,8 +5128,11 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/has_grav/nova/des_two/research)
 "qR" = (
+/obj/machinery/suit_storage_unit/syndicate/chameleon{
+	name = "suit storage unit";
+	req_access = list("syndicate_leader")
+	},
 /obj/item/crowbar/red,
-/obj/machinery/suit_storage_unit/syndicate/chameleon,
 /turf/open/floor/carpet/royalblack,
 /area/ruin/space/has_grav/nova/des_two/security)
 "qV" = (
@@ -15971,8 +15983,8 @@
 /obj/structure/window/reinforced/survival_pod/spawner/directional/east,
 /obj/item/binoculars,
 /obj/effect/turf_decal/tile/dark/full,
-/obj/item/knife/combat,
 /obj/item/gun/ballistic/revolver/golden,
+/obj/item/knife/combat,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/nova/des_two/bridge/cl)
 "YU" = (
